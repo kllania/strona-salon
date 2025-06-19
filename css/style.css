@@ -588,7 +588,7 @@ Marzena
   color: #222;
 }
 
-body.home {
+body.subpage {
   background-image: url('tlo.jpg');
   background-size: cover;      
   background-position: center; 
