@@ -501,6 +501,16 @@ header .phone-link:hover,
 header .phone-link:focus {
   text-decoration: underline;
 }
+.btn {
+  background-color: #E9E3DC; 
+  color: #234B4A !important; 
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+}
 
 
 .social-links
