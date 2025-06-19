@@ -477,6 +477,16 @@ body.brown-page h3 {
   color: #234B4A;
 }
 
+.gallery-text {
+  background-color: #E9E3DC;
+  color: #234B4A;
+  padding: 15px 20px;
+  border-radius: 10px;
+  max-width: 900px;
+  margin: 10px auto;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center; 
+}
 
 
 .social-links
