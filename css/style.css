@@ -551,19 +551,14 @@ Marzena
 }
 
 .main-photo {
-  max-width: 800px;
-  margin: 40px auto;
-  padding: 0 20px;
-}
-
-.main-photo {
-  text-align: center;  
+  text-align: center;
 }
 
 .main-photo img {
-  width: 150px;      
-  height: auto;      
+  width: 150px;
+  height: auto;
 }
+
 
 
 
