@@ -491,5 +491,16 @@ header .phone a {
   color: #E9E3DC !important; 
 }
 
+header .phone-link {
+  color: #E9E3DC !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header .phone-link:hover,
+header .phone-link:focus {
+  text-decoration: underline;
+}
+
 
 .social-links
