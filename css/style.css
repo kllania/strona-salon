@@ -512,5 +512,28 @@ header .phone-link:focus {
   border: none;
 }
 
+.btn {
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #234B4A;
+  color: #E9E3DC;
+  transform: scale(1.05);
+}
+.price-section, .contact-info, .gallery-text {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 600px) {
+  .gallery img {
+    width: 100%;
+  }
+  .menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
 
 .social-links
