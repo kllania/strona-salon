@@ -603,6 +603,19 @@ Marzena
   text-align: center;
 
 }
+body.brown-page {
+  color: #5A3A1E;
+}
+
+body.brown-page h1,
+body.brown-page p,
+body.brown-page li,
+body.brown-page a,
+body.brown-page h3 {
+  color: #5A3A1E;
+  
+}
+
 
 
 
