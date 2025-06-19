@@ -588,18 +588,15 @@ Marzena
   color: #222;
 }
 
-body.subpage {
-  background-image: url('tlo.jpg');
-  background-size: cover;
-  background-position: center;
+ body.subpage {
+  background-image: url('tlo.jpg'); 
+  background-size: cover;     
+  background-position: center; 
   background-repeat: no-repeat;
-  height: 100vh;
+  min-height: 100vh;           
   margin: 0;
 }
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+
 }
 
 
