@@ -540,6 +540,10 @@ header .phone-link:focus {
   background-position: center; 
   background-repeat: no-repeat; 
 }
+.welcome-text {
+  background-color: transparent !important;
+}
+
 
 
 .social-links
