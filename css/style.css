@@ -554,3 +554,11 @@ body.home {
 .welcome-text {
   background-color: transparent !important;
 }
+body.home {
+  background-color: transparent !important;
+  background-image: url('../tło2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; 
+}
