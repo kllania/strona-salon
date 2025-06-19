@@ -1,0 +1,573 @@
+
+* { 
+  margin:0; 
+  padding:0; 
+  box-sizing:border-box; 
+}
+body { 
+  font-family: Arial, sans-serif; 
+  line-height:1.6; 
+  color:#E9E3DC; 
+  background-color:#234B4A; 
+}
+header {
+  background: #234B4A;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #E9E3DC;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+main { 
+  padding:30px 20px; 
+  max-width:800px; 
+  margin:0 auto; 
+}
+
+.hero { 
+  padding:40px 20px; 
+  text-align:center; 
+  background:#234B4A; 
+}
+.hero h1 { 
+  font-size:2em; 
+  margin-bottom:10px; 
+}
+.hero .btn { 
+  display:inline-block; 
+  margin-top:15px; 
+  padding:10px 20px; 
+  background:#234B4A; 
+  color:#E9E3DC; 
+  text-decoration:none; 
+  border-radius:4px; 
+}
+
+footer { 
+  background:#E9E3DC; 
+  padding:20px; 
+  text-align:center; 
+  font-size:0.9em; 
+  margin-top:40px; 
+}
+
+footer a {
+  color: #E9E3DC;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.reviews {
+  max-width: 800px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.review {
+  background-color: #E9E3DC;
+  color: #234B4A;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.stars {
+  font-size: 1.2em;
+  color: gold;
+  margin-bottom: 5px;
+}
+
+.contact-info {
+  max-width: 800px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  color: #E9E3DC;
+}
+
+.contact-item i {
+  font-size: 24px;
+  margin-top: 5px;
+  color: #E9E3DC;
+  min-width: 30px;
+}
+
+.contact-item h3 {
+  margin: 0;
+  font-size: 1.1em;
+  color: #E9E3DC;
+}
+
+.contact-item p,
+.contact-item a {
+  margin: 5px 0 0 0;
+  color: #E9E3DC;
+  text-decoration: none;
+}
+
+.opening-hours {
+  list-style: none;
+  padding: 0;
+  margin: 5px 0 0 0;
+}
+
+.opening-hours li {
+  margin-bottom: 4px;
+}
+
+footer {
+  background: #E9E3DC;
+  color: #234B4A;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 40px;
+}
+
+footer strong {
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #E9E3DC;
+}
+
+.note {
+  text-align: center;
+  font-style: italic;
+  color: #E9E3DC;
+  margin-bottom: 30px;
+}
+
+.price-section {
+  background-color: #E9E3DC;
+  color: #234B4A;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.price-section h2 {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.price-section h2 span {
+  font-weight: normal;
+  font-size: 0.9em;
+  display: block;
+  margin-top: 5px;
+  color: #555;
+}
+
+.price-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.price-section li {
+  padding: 6px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.price-section li:last-child {
+  border-bottom: none;
+}
+
+.price-section strong {
+  font-weight: bold;
+}
+
+.intro {
+  background-color: #E9E3DC;
+  color: #234B4A;
+  padding: 30px 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 40px auto;
+  line-height: 1.6;
+}
+
+.intro h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.intro ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.intro li {
+  margin: 10px 0;
+}
+
+.intro strong {
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #E9E3DC !important; 
+  color: #234B4A !important;
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+}
+
+.gallery-intro {
+  background-color: #E9E3DC;
+  color: #234B4A;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.gallery-intro h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #234B4A;
+}
+
+.gallery-intro p {
+  font-size: 1em;
+  margin: 8px 0;
+  line-height: 1.5;
+}
+
+.socials {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px 20px;
+  background-color: #E9E3DC;
+  color: #234B4A;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.socials h1 {
+  margin-bottom: 10px;
+  font-size: 2em;
+  color: #234B4A;
+}
+
+.socials p {
+  margin-bottom: 20px;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-links li {
+  margin: 10px 0;
+}
+
+.social-links a {
+  color: #234B4A;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+Marzena
+CSS
+Marzena
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salon Fryzjerski Agnieszka Marzec</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="menu-container">
+      <ul class="menu">
+        <li><a href="index.html">Strona główna</a></li>
+        <a href="media.html">Obserwuj nas</a>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="recenzje.html">Recenzje</a></li>
+        <li><a href="cennik.html">Cennik</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+        <li><a href="tel:+48606786124"><i class="fas fa-phone"></i> +48 606 786 124</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+
+<section class="hero">
+  <h1>Salon Fryzjerski Agnieszka Marzec ✂️</h1>
+  <p>Od 30 lat pomagamy zadbać o Twoje włosy.</p>
+  <a href="tel:+48606786124" class="btn">Zadzwoń!</a>
+</section>
+
+<section class="intro">
+  <h2>O mnie</h2>
+  <p>
+    Od 30 lat pomagam moim klientom znaleźć fryzurę, która pasuje do ich stylu i charakteru.
+    W moim salonie w Izabelinie wykonuję:
+  </p>
+  <ul>
+    <li>💈 <strong>Strzyżenie damskie i męskie</strong> – klasyczne i nowoczesne fryzury</li>
+    <li>🎨 <strong>Koloryzacja włosów</strong> – od naturalnych odcieni po kreatywne zmiany</li>
+    <li>💆‍♀️ <strong>Regeneracja włosów</strong> – przywracam zdrowie i blask</li>
+    <li>✂️ <strong>Stylizacja męska (barber)</strong> – perfekcyjne cięcia i pielęgnacja brody</li>
+  </ul>
+  <p><strong>Zadbam o Twoje włosy kompleksowo – umów wizytę i przekonaj się!</strong></p>
+</section>
+
+
+<footer>
+  <p>Strona przygotowana w ramach projektu – <strong>Grupa Morska</strong></p>
+  <p>Projekt niekomercyjny · Tylko do celów zaliczeniowych</p>
+</footer>
+
+</body>
+</html>
+
+cdnjs.cloudflare.com
+Marzena
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salon Fryzjerski Agnieszka Marzec</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="menu-container">
+      <ul class="menu">
+        <li><a href="index.html">Strona główna</a></li>
+        <a href="media.html">Obserwuj nas</a>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="recenzje.html">Recenzje</a></li>
+        <li><a href="cennik.html">Cennik</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+        <li class="phone"><a href="tel:+48606786124"><i class="fas fa-phone"></i> +48 606 786 124</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+
+<main>
+  <h1>Cennik</h1>
+  <p class="note">Dokładna cena zależy od długości i gęstości włosów klienta.</p>
+
+  <section class="price-section">
+    <h2>Strzyżenie damskie <span>(mycie + modelowanie w cenie)</span></h2>
+    <ul>
+      <li><strong>Włosy krótkie:</strong> 80–100 zł</li>
+      <li><strong>Włosy średnie:</strong> 100–130 zł</li>
+      <li><strong>Włosy długie:</strong> 130–160 zł</li>
+      <li><strong>Grzywka:</strong> 30 zł</li>
+    </ul>
+  </section>
+
+  <section class="price-section">
+    <h2>Usługi męskie <span>(mycie + stylizacja w cenie)</span></h2>
+    <ul>
+      <li><strong>Strzyżenie męskie:</strong> 70–100 zł</li>
+      <li><strong>Strzyżenie brody:</strong> 40 zł</li>
+      <li><strong>Odsiwianie włosów:</strong> 80 zł</li>
+    </ul>
+  </section>
+
+  <section class="price-section">
+    <h2>Koloryzacja <span>(strzyżenie + modelowanie w cenie)</span></h2>
+    <ul>
+      <li><strong>Koloryzacja jednolita:</strong> 270–350 zł</li>
+      <li><strong>Dekoloryzacja (za godz.):</strong> 110 zł</li>
+      <li><strong>Tonowanie:</strong> 250–330 zł</li>
+      <li><strong>Baleyage klasyczny + tonowanie:</strong> 350–550 zł</li>
+      <li><strong>Koloryzacja + refleksy:</strong> 280–450 zł</li>
+      <li><strong>Ombre / Sombre:</strong> 330–430 zł</li>
+      <li><strong>Trwała:</strong> 250–350 zł</li>
+      <li><strong>Air Touch:</strong> 550–850 zł</li>
+      <li><strong>Front blond (refleksy przy twarzy):</strong> 260–320 zł</li>
+      <li><strong>Repigmentacja:</strong> 380–550 zł</li>
+    </ul>
+  </section>
+</main>
+
+
+<footer>
+  <p>Strona przygotowana w ramach projektu – <strong>Grupa Morska</strong></p>
+  <p>Projekt niekomercyjny · Tylko do celów zaliczeniowych</p>
+</footer>
+
+</body>
+</html>
+Marzena
+cennik
+Marzena
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salon Fryzjerski Agnieszka Marzec</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="menu-container">
+      <ul class="menu">
+        <li><a href="index.html">Strona główna</a></li>
+        <a href="media.html">Obserwuj nas</a>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="recenzje.html">Recenzje</a></li>
+        <li><a href="cennik.html">Cennik</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+        <li class="phone"><a href="tel:+48606786124"><i class="fas fa-phone"></i> +48 606 786 124</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <h1>Kontakt</h1>
+
+  <section class="contact-info">
+    <div class="contact-item">
+      <span class="emoji">📞</span>
+      <div>
+        <h3>Telefon</h3>
+        <p><a href="tel:+48606786124">+48 606 786 124</a></p>
+      </div>
+    </div>
+
+    <div class="contact-item">
+      <span class="emoji">📍</span>
+      <div>
+        <h3>Adres</h3>
+        <p>Sierakowska 4<br>Izabelin C 05-080</p>
+      </div>
+    </div>
+
+    <div class="contact-item">
+      <span class="emoji">⏰</span>
+      <div>
+        <h3>Godziny otwarcia</h3>
+        <ul class="opening-hours">
+          <li><strong>Poniedziałek:</strong> 10:00 - 15:00</li>
+          <li><strong>Wtorek:</strong> 10:00 - 20:00</li>
+          <li><strong>Środa:</strong> 10:00 - 20:00</li>
+          <li><strong>Czwartek:</strong> 10:00 - 20:00</li>
+          <li><strong>Piątek:</strong> 10:00 - 20:00</li>
+          <li><strong>Sobota:</strong> 10:00 - 16:00</li>
+          <li><strong>Niedziela:</strong> Zamknięte</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+<footer>
+  <p>Strona przygotowana w ramach projektu – <strong>Grupa Morska</strong></p>
+  <p>Projekt niekomercyjny · Tylko do celów zaliczeniowych</p>
+</footer>
+
+.gallery {
+  max-width: 1000px;
+  margin: 0 auto 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+.main-photo {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.main-photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+</body>
+</html>
+Marzena
+kontakt
