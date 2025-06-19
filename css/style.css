@@ -590,16 +590,6 @@ Marzena
 
 body.subpage {
   background-image: url('tlo.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-body.home {
-  background: white;
-}
-body.subpage {
-  background-image: url('tlo.jpg');
   background-size: cover;      
   background-position: center; 
   background-repeat: no-repeat; 
