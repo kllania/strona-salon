@@ -535,15 +535,22 @@ header .phone-link:focus {
   }
 
   body.home {
+    background-color: transparent !important;
+    background-image: url('../tło2.jpg'); 
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
+}
+
+body.home {
+  background-color: transparent !important;
   background-image: url('../tło2.jpg'); 
   background-size: cover;      
   background-position: center; 
   background-repeat: no-repeat; 
 }
+
 .welcome-text {
   background-color: transparent !important;
 }
-
-
-
-.social-links
