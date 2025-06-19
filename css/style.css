@@ -544,6 +544,15 @@ Marzena
   object-fit: cover;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   transition: transform 0.3s;
+  .gallery img {
+  max-width: 1000px;
+  margin: 0 auto 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 0 20px;
+}
+
 }
 
 .gallery img:hover {
@@ -567,5 +576,4 @@ Marzena
 
 </body>
 </html>
-Marzena
-kontakt
+
