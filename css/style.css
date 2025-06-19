@@ -556,12 +556,15 @@ Marzena
   padding: 0 20px;
 }
 
-.main-photo img {
-  width: 60%;
-  height: auto;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+.main-photo {
+  text-align: center;  
 }
+
+.main-photo img {
+  width: 150px;      
+  height: auto;      
+}
+
 
 
 
