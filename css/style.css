@@ -461,6 +461,22 @@ body.brown-page h3 {
   color: #234B4A;
   text-decoration: none;
 }
+.contact-info a[href^="tel"] {
+  color: #234B4A;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contact-info a[href^="tel"]:hover,
+.contact-info a[href^="tel"]:focus {
+  text-decoration: underline;
+}
+
+.contact-info .contact-item i,
+.contact-info .emoji {
+  color: #234B4A;
+}
+
 
 
 .social-links
