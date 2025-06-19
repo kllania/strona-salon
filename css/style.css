@@ -587,11 +587,27 @@ Marzena
   font-size: 2.5rem;
   color: #222;
 }
-.special-text {
-  font-size: 1.5rem; 
-  color: #4B3434;
-  margin-top: 10px;
-  text-align: center; 
+
+body.subpage {
+  background-image: url('tlo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body.home {
+  background: white;
+}
+body.subpage {
+  background-image: url('tlo.jpg');
+  background-size: cover;      
+  background-position: center; 
+  background-repeat: no-repeat; 
+  min-height: 100vh;           
+  margin: 0;
+}
+
+
 
 
 
