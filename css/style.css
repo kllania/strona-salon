@@ -533,6 +533,12 @@ header .phone-link:focus {
     flex-direction: column;
     gap: 10px;
   }
+
+  body.home {
+  background-image: url('../tło2.jpg'); 
+  background-size: cover;      
+  background-position: center; 
+  background-repeat: no-repeat; 
 }
 
 
