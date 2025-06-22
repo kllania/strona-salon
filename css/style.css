@@ -368,7 +368,7 @@ h1 {
 .welcome-text {
   font-family:
 
-.media-text 
+.media-text {
   background-color: #E9E3DC;
   color: #234B4A;
   padding: 15px 20px; 
@@ -377,4 +377,4 @@ h1 {
   margin: 10px auto;
   box-shadow: 0 6px 12px rgba(0,0,0,0.08);
   transition: box-shadow 0.3s ease;
-  }
+  
